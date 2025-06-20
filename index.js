@@ -160,14 +160,14 @@ for (let btn of number) {
                 return;
         }
 
-        plusMinus.addEventListener("click", () => {
+        
+    });
+plusMinus.addEventListener("click", () => {
             결과 = 창.textContent * -1;
             창.textContent = 결과;
             선택된수.push(결과);
-            console.log(`음양변환" ${결과}`)
-        })
-    });
-
+            console.log(`음양변환" ${결과}`);
+        });
 
     /*------------광택 이동-----------*/
 
