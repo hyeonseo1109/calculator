@@ -88,6 +88,7 @@ body {
     height: auto;
     min-width: 3px;
     min-height: 26px;
+    font-size: 25px;
 }
 
 
@@ -137,15 +138,16 @@ body {
     font-weight: 900;
 }
 
+/*--------뒤로가기---------*/
 #delete {
     width: 30px;
     height: 30px;
     position: absolute;
     z-index: 5;
-    top: -5px;
+    top: -6px;
     right: -5px;
     color: rgb(172, 178, 254);
-    font-size: 30px;
+    font-size: 35px;
     user-select: none;
 }
 
