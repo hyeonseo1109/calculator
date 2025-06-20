@@ -144,10 +144,10 @@ body {
     height: 30px;
     position: absolute;
     z-index: 5;
-    top: -10px;
+    top: -5px;
     right: -5px;
     color: rgb(172, 178, 254);
-    font-size: 35px;
+    font-size: 30px;
     user-select: none;
 }
 
