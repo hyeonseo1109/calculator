@@ -15,8 +15,8 @@ html, body {
     justify-content: center;
 }
 
-body {
-    overflow: hidden;
+body {  
+    overflow: hidden;   /*? ba가 넘쳐서 스크롤이 생기지 않게끔 */
     /*background-color: rgb(177, 184, 239);*/
 }
 
@@ -28,7 +28,7 @@ body {
     position: absolute;
     height: 150%;
     width: auto; 
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;   /*? ba 깜빡임 효과 자연스럽게 */ 
 }
 
 .thick {
@@ -73,11 +73,11 @@ body {
     width: 360px;  
     position: relative;
     z-index: 1;
-    background-color: rgb(199, 206, 254);
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
-                        linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-color: rgb(199, 206, 254);       /*? 그라데이션 활용, 격자무늬 생성 */
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.14) 1px, transparent 1px),
+                        linear-gradient(to bottom, rgba(255, 255, 255, 0.14) 1px, transparent 1px);
     background-size: 5px 5px;   /*5px마다 '1px 선 + 투명한 부분' 반복이 생김 => 격자무늬처럼 보임*/
-    box-shadow: inset 0 0 10px rgba(164, 164, 244, 0.7);
+    box-shadow: inset 0 0 10px rgba(164, 164, 244, 0.7);    /*? div 안쪽으로 그림자 보이게끔 */
     justify-content: end;
     align-items: center;
     padding: 15px;

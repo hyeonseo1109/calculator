@@ -185,7 +185,7 @@ let x2 = 1000;
 function moving1 () {
     x1 += 10;
     const screenWidth = window.innerWidth;
-    const baOneWidth = baOne.offsetWidth;
+    const baOneWidth = baOne.offsetWidth;   //요소의 실제 너비
 
     if ( x1 > screenWidth ) {
         x1 = -1000;
@@ -216,7 +216,7 @@ let twoVisible = true;
 
 setInterval(() => {
     baOne.style.opacity = oneVisible ? "0.5" : "0.8";
-    oneVisible = !oneVisible;
+    oneVisible = !oneVisible;   //1초마다 토글.
 
     baTwo.style.opacity = twoVisible ? "0.8" : "0.5";
     twoVisible = !twoVisible;
