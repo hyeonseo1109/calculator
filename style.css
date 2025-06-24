@@ -35,14 +35,14 @@ body {
     height: 150%;
     width: 80px;
     background-color: rgb(228, 232, 257);
-    box-shadow: 0 0 100px 100px rgba(228, 232, 257);
+    box-shadow: 0 0 100px 100px rgb(228, 232, 257);
 }
 
 .thin {
     height: 150%;
     width: 80px;
     background-color: rgb(228, 232, 257);
-    box-shadow: 0 0 100px 100px rgba(228, 232, 257);
+    box-shadow: 0 0 100px 100px rgb(228, 232, 257);
 }
 
 
@@ -76,7 +76,7 @@ body {
     background-color: rgb(199, 206, 254);
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
                         linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
-    background-size: 5px 5px;   /*3px마다 '1px 선 + 투명한 부분' 반복이 생김 => 격자무늬처럼 보임*/
+    background-size: 5px 5px;   /*5px마다 '1px 선 + 투명한 부분' 반복이 생김 => 격자무늬처럼 보임*/
     box-shadow: inset 0 0 10px rgba(164, 164, 244, 0.7);
     justify-content: end;
     align-items: center;

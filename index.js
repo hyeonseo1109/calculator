@@ -73,7 +73,7 @@ for( let op of operator ) {
         console.log(`firstOperand: ${firstOperand}`);
         oper = op.textContent;
         console.log(`oper: ${oper}`);
-        isOpered = true;    //연산됐는가? 네
+        isOpered = true;    //연산된 상태인가? yes
         선택된수 = [];  //이거 없으면 초기화안돼서 소수점이 두 개 이상 안들어감
         
     });
@@ -144,7 +144,7 @@ for (let btn of number) {
                 break;
                 }
 
-        if (pe === "%") {
+        if (pe === "%") {   //변수 pe에 %가 저장이 됐다면
                 if (secondOperand === firstOperand ) {
                     결과 = firstOperand * 0.01;
                     창.textContent = 결과;
@@ -168,6 +168,11 @@ plusMinus.addEventListener("click", () => {
             선택된수.push(결과);
             console.log(`음양변환" ${결과}`);
         });
+
+
+
+
+
 
     /*------------광택 이동-----------*/
 
